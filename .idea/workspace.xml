@@ -4,18 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47202688-0db2-4c8b-a58c-80e11b0f2370" name="Changes" comment="first commit" />
+    <list default="true" id="47202688-0db2-4c8b-a58c-80e11b0f2370" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/yan/design_patern/P_Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/yan/design_patern/P_Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/yan/design_patern/P_Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/trening_advanced" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2xzLTCrZ7Ejiv63tGf4O6iBVEBZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -25,11 +39,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.P_Observer$ObserverPatternEx.executor": "Run",
+    "Application.SingletonPatternEx.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/y.mubenesha.kande/Documents/jv/formation_advanced/trening_advanced",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -37,7 +55,7 @@
       <recent name="C:\Users\y.mubenesha.kande\Documents\jv\formation_advanced\trening_advanced" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SingletonPatternEx">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.yan.Main" />
       <module name="formation_advanced" />
@@ -51,8 +69,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P_Observer$ObserverPatternEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.yan.design_patern.P_Observer$ObserverPatternEx" />
+      <module name="formation_advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yan.design_patern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonPatternEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.yan.design_patern.SingletonPatternEx" />
+      <module name="formation_advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yan.design_patern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonPatternEx" />
+        <item itemvalue="Application.P_Observer$ObserverPatternEx" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -66,6 +112,19 @@
       <option name="presentableId" value="Default" />
       <updated>1748935962319</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1748937270542</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748937270542</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
